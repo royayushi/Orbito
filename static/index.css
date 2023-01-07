@@ -57,6 +57,22 @@ body
     background: #fe4e4e;
     border-radius: 50%;
 }
+.container .submit
+{
+  position: absolute;
+  width: 152px;
+  height: 38px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  ;
+}
+a {
+  color: #fe4e4e ;
+}
 .container .loader
 {
     position: relative;

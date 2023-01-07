@@ -44,6 +44,10 @@ def enter():
             return redirect(url_for('index'))
     return render_template('enter.html')
 
+@app.route('/cardspage', methods=('GET','POST'))
+def cardspage():
+    return render_template('cardspage.html')
+
 
 
 app.run(host='0.0.0.0', port=81)
