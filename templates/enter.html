@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Space-o-pedia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="static/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="Box">
+        <div class="inform">
+    <br>
+    <br>
+  <form method="post">
+    <div class="inputBox">
+        <input type="text" name="fname" required value="{{ request.form['fname'] }}">
+        <span>First Name</span>
+        <i></i>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="inputBox">
+        <input type="text" name="lname" required value="{{ request.form['lname'] }}">
+        <span>Last Name</span>
+        <i></i>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="inputBox">
+        <input type="text" name="phno" required value="{{           request.form['phno'] }}">
+        <span>Phone Number</span>
+        <i></i>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="submit-btn text-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+    </div>
+  </div>
+</body>
+
+</html>
