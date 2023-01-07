@@ -16,6 +16,21 @@ body{
     background-size: cover;
 }
 
+.heading{
+    font-family: 'Barlow', sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    position: absolute;
+    margin: 0px auto;
+    clear: both;
+    width: 100%;
+    height: 60%;
+    color: #fff;
+}
+
 .container{
     display: flex;
     justify-content: center;
