@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.sqlite.bin
     pkgs.python38Full
   ];
   env = {
