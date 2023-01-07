@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Space-o-pedia</title>
-  
+  <meta charset="UTF-8">
+    
+  <title>Welcome Page</title>
+    
+  <link href="/static/index.css" rel="stylesheet">
+     
 </head>
 
 <body>
-  <div class="btn">
-    <a href = "{{ url_for('enter') }}">Go to Enter</a>
-  </div>
+    <div class="container">
+    <div class="loader">
+        <div class="ball"></div>
+    </div>
+    <div class="submit-btn" >
+          <a href = "{{ url_for('enter') }}">Explore</a>
+    </div>
 </body>
-
 </html>
