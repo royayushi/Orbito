@@ -39,7 +39,7 @@
     <br>
     <br>
     <div class="submit-btn text-center">
-        <a role="button" class="btn btn-primary" href = "{{ url_for('cardspage') }}">Submit</a>
+        <button type="submit" class="btn btn-primary" formaction = "{{ url_for('cardspage') }}" >Submit</button>
     </div>
   </form>
     </div>
@@ -47,3 +47,5 @@
 </body>
 
 </html>
+
+<!--- formaction = "{{ url_for('cardspage') }}" -->
